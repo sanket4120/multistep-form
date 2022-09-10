@@ -1,0 +1,16 @@
+$primary: #664de6;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+* {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(49, 47, 47);
+}
+
+.form-control,
+.form-check-input,
+.btn {
+  box-shadow: none !important;
+}

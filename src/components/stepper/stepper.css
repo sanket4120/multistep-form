@@ -1,0 +1,23 @@
+.stepper ul li {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.stepper .stepper-progress-line,
+.stepper .stepper-progress {
+  position: absolute;
+  height: 1px;
+  z-index: -1;
+}
+
+.stepper .stepper-progress-line {
+  background-color: lightgray;
+  top: 50%;
+  width: 100%;
+}
+
+.stepper .stepper-progress {
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease-out;
+}
